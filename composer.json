@@ -1,0 +1,25 @@
+{
+    "name": "fergardi/select2-bundle",
+    "type": "symfony-bundle",
+    "description": "Select2 resources bundle",
+    "keywords": ["select2", "bundle"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fergardi",
+            "email": "fergardi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": { "Fergardi\\Select2Bundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Fergardi/Select2Bundle"
+}
